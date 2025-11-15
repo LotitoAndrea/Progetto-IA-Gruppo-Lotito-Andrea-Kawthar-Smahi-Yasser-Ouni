@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #2c6bed;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.group-info {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+main {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    flex: 1;  /* <--- permette di spingere il footer verso il basso */
+}
+
+section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #2c6bed;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ececec;
+    font-size: 0.9em;
+}
